@@ -10,7 +10,7 @@ h3{
 }
 
 .subheading{
-    background-color: violet;
+    background-color: rgb(83, 21, 83);
     color: rgb(253, 252, 250);
     
 }
@@ -27,8 +27,9 @@ h3{
 }
 
 h4{
-    background-color: violet;
-    color: rgb(253, 252, 250);
+    background-color: rgba(238, 130, 238, 0.562);
+    color: rgb(141, 1, 1);
+    padding-left: 2%;
 }
 
 .recipe-pic{
@@ -45,8 +46,9 @@ h4{
 #button{
     background-color: rgba(238, 130, 238, 0.329);
     border-color: blueviolet;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: justify;
+    margin-left: 45%;
+    margin-right: 55%;
+    margin-top: 1%;
+    padding: 10px;
 }
