@@ -1,0 +1,52 @@
+#heading{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: smaller;
+}
+
+.subheading{
+    background-color: violet;
+    color: rgb(253, 252, 250);
+    
+}
+
+#recipe-list{
+    background-color: rgba(141, 51, 224, 0.212);
+    color: rgb(8, 24, 243);
+    text-align: justify;  
+}
+
+.description{
+    font-size: large;
+
+}
+
+h4{
+    background-color: violet;
+    color: rgb(253, 252, 250);
+}
+
+.recipe-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.list{
+    background-color: rgba(141, 51, 224, 0.212);
+}
+
+#button{
+    background-color: rgba(238, 130, 238, 0.329);
+    border-color: blueviolet;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
