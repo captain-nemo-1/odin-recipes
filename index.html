@@ -2,21 +2,158 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Captain Cooks</title>
+            <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="style.css">
+        <!-- <style>
+            body {
+                background-image: url("https://images.unsplash.com/photo-1549074862-6173e20d02a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVlcCUyMHNlYXxlbnwwfHwwfHw%3D&w=1000&q=80");
+                background-size: cover;
+            }
+        </style> -->
     </head>
 
     <body>
         <h1 id="heading">	&#9875 Captain Cooks 	&#9875</h1>
-        <h3>Brought to you by Odin Recipes</h3>
+        <h3 style="margin-top: 1px; font-weight: 400; color: rgba(207, 198, 198, 0.863);">Brought to you by Odin Recipes</h3>
 
         <img class="recipe-pic" src="images/CaptainNemo.jpg" alt="Capatain Nemo">
-        <p>I am a mysterious figure, the son of an Indian raja. A scientific visionary, I roam the depths of the seas in my submarine, the Nautilus, which was assembled from parts manufactured in several different countries, then shipped to a cover address. I am consumed by a hunger for hatred of imperialism and Indian Cuisine.</p>
-        <p>Join me on the journey as I try out different recipes and be a part of <strong>The Twenty Thousand Leagues under the Kitchen Roof.</strong></p>
+        <p class="para">I am a mysterious figure, the son of an Indian raja. A scientific visionary, I roam the depths of the seas in my submarine, the Nautilus, which was assembled from parts manufactured in several different countries, then shipped to a cover address. I am consumed by a hunger for hatred of imperialism and Indian Cuisine.</p>
+        <p class="para">Join me on the journey as I try out different recipes and be a part of <strong>The Twenty Thousand Leagues under the Kitchen Roof.</strong></p>
         <h4 class="subheading">Checkout my latest recipes!</h4>
-        <ul class="subheading" id="recipe-list">
-            <li><a href="../odin-recipes/recipes/curry.html">Paneer Butter Masala</a></li>
-            <li><a href="../odin-recipes/recipes/bhel.html">Bhel Puri</a></li>
-        </ul>
+        <section class="slider">
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://hebbarskitchen.com/wp-content/uploads/mainPhotos/bhel-puri-recipe-bhel-poori-bhel-puri-chaat-bhel-recipe-2-696x464.jpeg" alt="bhel">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i class="fa-brands fa-wikipedia-w"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+
+                            <div class="name-type">
+                                <span class="name">Bhel Puri</span>
+                                <span class="type">Snack</span>
+
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            
+                            <div class="button">
+                                <button class="start">Start Preparation</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://hebbarskitchen.com/wp-content/uploads/mainPhotos/bhel-puri-recipe-bhel-poori-bhel-puri-chaat-bhel-recipe-2-696x464.jpeg" alt="bhel">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i class="fa-brands fa-wikipedia-w"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+
+                            <div class="name-type">
+                                <span class="name">Bhel Puri</span>
+                                <span class="type">Snack</span>
+
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            
+                            <div class="button">
+                                <button class="start" onclick="window.location.href='/home/captainnemo/repos/odin-recipes/recipes/bhel.html';">Start Preparation</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="https://hebbarskitchen.com/wp-content/uploads/mainPhotos/bhel-puri-recipe-bhel-poori-bhel-puri-chaat-bhel-recipe-2-696x464.jpeg" alt="bhel">
+                            </div>
+
+                            <div class="media-icons">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i class="fa-brands fa-wikipedia-w"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+
+                            <div class="name-type">
+                                <span class="name">Bhel Puri</span>
+                                <span class="type">Snack</span>
+
+                            </div>
+
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            
+                            <div class="button">
+                                <button class="start">Start Preparation</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+
+        
+        </section>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     </body>
 </html>
