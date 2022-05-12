@@ -7,6 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* CAROUSEL */
+
 .slider{
     height: auto;
     display: flex;
@@ -26,7 +28,7 @@
 }
 
 .swiper {
-    width: 1000px;
+    width: 900px;
 }
 section .card .image{
     height: 140px;
@@ -48,7 +50,7 @@ section .card .image img{
     position: relative;
     background: white;
     border-radius: 20px;
-    margin: 20px 20px;
+    margin: 20px 35px;
     width: 20px 0;
 }
 
@@ -83,7 +85,7 @@ section .card .image img{
     color: white;
     opacity: 65%;
     margin-top: 10px;
-    transition: all 0.3 ease;
+    transition: all .3s ease;
     cursor: pointer;
 }
 
@@ -163,6 +165,8 @@ section .card .image img{
     color: rgb(0, 0, 0);
 }
 
+/* GENERAL */
+
 #heading{
     background-color: rgb(20, 14, 14);
     color: rgb(255, 255, 255);
@@ -179,23 +183,27 @@ body{
     color: rgba(255, 255, 255, 0.76);
 }
 
-h3{
+.description{
+    color: white;
     text-align: center;
     font-size: smaller;
+    font-weight: 300;
+    font-size: large;
+
 }
 
 .subheading{
     background-color: rgb(17, 14, 17);
     color: rgb(253, 252, 250);
-    
+    font-weight: 300;
 }
 
 a:visited {
-    color: rgb(229, 149, 236);
+    color: #333;
 }
 
 a {
-    color: rgb(229, 149, 236);
+    color: #333;
 }
 
 a:hover {
@@ -210,14 +218,9 @@ a:hover {
 
 }
 
-.description{
-    font-size: large;
-
-}
-
 h4{
-    background-color: rgba(238, 130, 238, 0.562);
-    color: rgb(141, 1, 1);
+    background-color: rgba(0, 0, 0, 0.562);
+    color: rgb(255, 255, 255);
     padding-left: 2%;
 }
 
@@ -230,10 +233,15 @@ h4{
 }
 
 .list{
-    background-color: rgba(141, 51, 224, 0.212);
+    background-color: grey;
+    margin-left: 1rem;
+    color: white;
+    padding: 5px 5px 10px 30px;
 }
 
-#button{
+
+
+/* #button{
     background-color: rgba(238, 130, 238, 0.329);
     border-color: blueviolet;
     text-align: justify;
@@ -241,4 +249,4 @@ h4{
     margin-right: 55%;
     margin-top: 1%;
     padding: 10px;
-}
+} */
